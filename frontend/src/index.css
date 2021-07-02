@@ -1,1 +1,71 @@
- 
+main {
+	min-height: 80vh;
+}
+
+h3 {
+	padding: 1rem 0;
+}
+.rating span {
+	margin: 0.1rem;
+}
+
+h1 {
+	font-size: 1.8rem;
+	padding: 1rem 0;
+}
+h2 {
+	font-size: 1.4rem;
+	padding: 0.5rem 0;
+}
+
+.btn {
+	border-radius: 4px;
+}
+
+.cardImage {
+	object-fit: cover;
+	height: 300px;
+}
+
+.cartImage {
+	object-fit: cover;
+	height: 70px;
+	width: 70px;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+	display: flex;
+}
+.carousel-caption {
+	top: 35vh;
+	margin-left: 20vw;
+}
+
+.carousel-caption h2 {
+	color: #fff;
+}
+.carousel img {
+	height: 400px;
+	width: 580px;
+	object-fit: cover;
+	padding: 30px;
+	margin: 40px;
+}
+
+.carousel a {
+	margin: 0 auto;
+}
+.carousel {
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	.searchBtn,
+	.searchBox {
+		margin-top: 10px;
+		width: 50%;
+	}
+}
